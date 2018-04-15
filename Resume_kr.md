@@ -7,9 +7,9 @@
 - 2019년 2월 졸업예정
 
 ### 학력
-- (Joe. T. Robinson High School)[https://rhs.pcssd.org/] 졸업
-- (University of Illinois Urbana-Champaign)[http://illinois.edu/] 자퇴
-- (인하대학교)[http://www.inha.ac.kr] 재학
+- [Joe. T. Robinson High School](https://rhs.pcssd.org/) 졸업
+- [University of Illinois Urbana-Champaign](http://illinois.edu/) 자퇴
+- [인하대학교](http://www.inha.ac.kr) 재학
 
 ### 기술 스택
 - C/C++ 프로그래밍 대회에 주로 사용
