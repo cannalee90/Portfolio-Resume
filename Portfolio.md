@@ -24,7 +24,7 @@
 - 디펜던시를 최소화 하기 위해서 FE 프로젝트로 진행
 
 ### Trouble Shooting
-- `Github API`에서는 웹 어플리케이션(FE)의 경우 인증 토큰을 발급해주지 않는다.
+- `Github API`에서는 웹 어플리케이션(browser only)의 경우 인증 토큰을 발급해주지 않는다.
   - firebase에서 제공하는 githubAuth API를 사용해서 해결.
   - refs [firebase github auth](https://firebase.google.com/docs/auth/web/github-auth)
   - fixed [#4](https://github.com/cannalee90/flash-card/pull/4)
