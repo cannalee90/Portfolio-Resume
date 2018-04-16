@@ -17,7 +17,7 @@
 - 담당: 기획 및 웹 프론트엔드
 
 ### 설명
-- 암기카드를 React를 사용해서 웹 어플리케이션으로 구현 inspired by https://github.com/jwasham/computer-science-flash-cards
+- 암기카드를 React를 사용해서 웹 어플리케이션으로 구현 inspired by [jwasham/computer-science-flash-cards](https://github.com/jwasham/computer-science-flash-cards)
 - 암기카드를 React를 사용해서 웹 어플리케이션으로 구현
 - 개인적인 기술부채를 청산하면서 진행
 - `react-observable`, `react-router-v4`를 공부 및 실사용하기 위한 프로젝트
