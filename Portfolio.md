@@ -22,6 +22,29 @@
 - 개인적인 기술부채를 청산하면서 새로운 라이브러리들을 공부해보고 싶어서 진행했다.
 - 디펜던시를 최소화 하기 위해서 Server쪽 코드의 작성을 최대한 하지 않으려 했다. 원래는 `github api`만 사용해서 진행하려 했지만, 깃허브 정책상 이를 지원하지 않아서 `firebase`를 사용했다.
 
+### Trouble Shooting
+- `Github API`에서는 웹 어플리케이션(FE)의 경우 인증 토큰을 발급해주지 않는다.
+  - firebase를 사용해서 해결했다.
+  - Login Process를 사용
+  - https://github.com/cannalee90/flash-card/pull/4
+
+- FE에서 사용자 인증 필터링 부분
+  - 기존 프로젝트에서는 인증되지 않은 사용자를 필터링하기 위해서 HOC를 사용했다.
+  - HOC 사용해서 진행할 경우, Router에서 HOC를 사용해 Wrapping 하거나 decorated pattern을 사용해야 했다.
+  - React-router-4는 Router를 `dom`형태로 지원하므로, `Router`의 `render`를 사용해서 다른 방법으로 구현해보았다.
+  - fixed https://github.com/cannalee90/flash-card/commit/c0a2b5071e72863935b9e26156f0e337f8b75783
+
+- `redux-observable`
+  - `redux-observable`을 사용할 경우, 비동기 액션이 언제 끝나는지 컴포넌트에서는 알 수가 없다.
+  - `reducer`의 상태변화로만 알아채는 것이 하는것이 이상적이지만, 매번 이렇게 진행하기엔 사실상 어렵다.
+  - `redux middleware`에서 `promise`를 래핑하는 방식으로 문제를 해결했다.
+  - refs https://github.com/redux-observable/redux-observable/issues/90#issuecomment-237331721
+  - fixed https://github.com/cannalee90/flash-card/commit/836061c3fbb7b10310a78d183771a4c482e41825
+
+- `observable`
+  - `observable`에 익숙하지 않아서, 간단한 비동기 액션도 이해하고 구현하는데 어려웠다.
+
+
 
 ## 인하대학교 시간표 v2
 
