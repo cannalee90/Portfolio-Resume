@@ -7,9 +7,9 @@
 - 2019년 2월 졸업예정
 
 ### 학력
-- (Joe. T. Robinson High School)[https://rhs.pcssd.org/] 2003/01 ~ 2007/06 졸업
-- (University of Illinois Urbana-Champaign)[http://illinois.edu/] 2007/08 ~ 2008/02 자퇴
-- (인하대학교)[http://www.inha.ac.kr] 재학 2014/03 ~ 현재
+- [Joe. T. Robinson High School](https://rhs.pcssd.org) 2003/01 ~ 2007/06 졸업
+- [University of Illinois Urbana-Champaign](http://illinois.edu) 2007/08 ~ 2008/02 자퇴
+- [인하대학교](http://www.inha.ac.kr) 재학 2014/03 ~ 현재
 
 ### 기술 스택
 - React 웹 프론트엔드를 구현을 위한 프레임워크
