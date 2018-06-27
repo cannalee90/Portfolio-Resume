@@ -50,7 +50,6 @@
   - 기간: 2018/04 ~ 현재
   - 설명
     - 웹에서 암기카드를 markdown으로 작성해서 gist에 업로드하면서 확인할 수 있는 서비스 inspired by [jwasham](https://github.com/jwasham/computer-science-flash-cards)
-    - 개인적인 기술 부채를 해결하고 싶어서 진행 중인 프로젝트
     - JS에 대한 이해를 높이면서 천천히 구현 중
 
 - [인하대학교 시간표 v2](https://github.com/cannalee90/inhatime)
