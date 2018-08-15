@@ -11,6 +11,10 @@
 - [University of Illinois Urbana-Champaign](http://illinois.edu) 2007/08 ~ 2008/02 자퇴
 - [인하대학교](http://www.inha.ac.kr) 재학 2014/03 ~ 현재
 
+### 경험
+- [PUBG](https://www.pubg.com/) 프론트엔드 팀 인턴 2018/07 ~ 2018/08
+- [Starlink](https://startlink.io) 웹 개발자 2016/02 ~ 2017/08
+
 ### 기술 스택
 - React: 웹 프론트엔드를 구현을 위한 프레임워크
 - AWS: ec2, rds, route53, sqs, ses, s3, lambda, API gateway, DynamoDB
@@ -37,10 +41,6 @@
   - 인원: 2명
   - 설명
     - 백준 알고리즘 강의를 인터넷 강의 형식으로 제공하기 위한 플랫폼
-
-</br>
-</br>
-</br>
    
 ### 개인프로젝트 
 

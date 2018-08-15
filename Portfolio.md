@@ -1,6 +1,5 @@
 # 개인프로젝트
 
-
 ## Flashcard
 
 **암기카드 React web app**
@@ -29,23 +28,12 @@
   - fixed [#4](https://github.com/cannalee90/flash-card/pull/4)
   - fixed [dbb34ef4](https://github.com/cannalee90/flash-card/commit/dbb34ef4af2cb3bf2379c956dccff382db2a07f6)
 
-- FE에서 사용자 인증 필터링 부분
-  - 기존 프로젝트에서는 인증되지 않은 사용자를 필터링하기 위해서 HOC를 사용했다.
-  - HOC 사용해서 진행할 경우, Router에서 HOC를 사용해 Wrapping 하거나 decorated pattern을 사용해야 했다.
-  - React-router-4는 Router를 `dom`형태로 지원하므로, `Router`의 `render`를 사용해서 다른 방법으로 구현해보았다.
-  - fixed [c0a2b507](https://github.com/cannalee90/flash-card/commit/c0a2b5071e72863935b9e26156f0e337f8b75783)
-
 - `redux-observable`
   - `redux-observable`을 사용할 경우, 비동기 액션이 언제 끝나는지 컴포넌트에서는 알 수가 없다.
   - `reducer`의 상태변화로만 알아채는 것이 하는것이 이상적이지만, 매번 이렇게 진행하기엔 사실상 어렵다.
   - `redux middleware`에서 `promise`를 래핑하는 방식으로 문제를 해결했다.
   - refs [redux-observable/redux-observable#90 (comment)](https://github.com/redux-observable/redux-observable/issues/90#issuecomment-237331721)
   - fixed [836061c3](https://github.com/cannalee90/flash-card/commit/836061c3fbb7b10310a78d183771a4c482e41825)
-
-- `observable`
-  - `observable`에 익숙하지 않아서, 간단한 비동기 액션도 이해하고 구현하는데 어려웠다
-
-
 
 ## 인하대학교 시간표 v2
 
@@ -56,7 +44,6 @@
 ### 사용한 기술
 
 - `React`, `Node.js`, `html`, `css`, `AWS`
-
 
 ### 기간 및 인원
 
@@ -74,8 +61,8 @@
 
 - 추천 서버와 웹 서버와의 데이터 동기화 이슈
   - 사용자가 평가한 데이터를 추천 서버와 공유야하는데, batch-job 형태가 아니라 실시간으로 요청이 들어가게된다. 즉 웹 서버에서 사용자가 데이터를 입력할때마다 추천 서버로 리퀘스트를 보내게 된다.
-  - 각각의 서버가 하나씩 있다면 발생하지 않지만 추천서버와 웹 서버가 늘어나게 되면 `race-condition`이 발생할 수 있다
-  - DB의 Transcation기능을 사용할까 큐를 구현할까 고민하다가, 퍼포먼스와 구현 그리고 안정성을 고려해  `AWS SQS`를 사용했다.
+  - 각각의 서버가 하나씩 있다면 발생하지 않지만 추천서버가 늘어나게 되면 `race-condition`이 발생할 수 있다
+  - Mysql의 table-lock을 사용하거나 큐를 사용해야할지 고민하다가, 구현 안정성을 고려해 `AWS SQS`를 사용했다.
 
 ### 후기
 
