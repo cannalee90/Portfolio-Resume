@@ -16,7 +16,7 @@
 - [Starlink](https://startlink.io) 웹 개발자 2016/02 ~ 2017/08
 
 ### 기술 스택
-- React: 웹 프론트엔드를 구현을 위한 프레임워크
+- React, Angular: 웹 프론트엔드를 구현을 위한 프레임워크
 - AWS: ec2, rds, route53, sqs, ses, s3, lambda, API gateway, DynamoDB
 - Git: 소스 버젼관리
 - Ruby on Rails, express: 웹 백엔드 구현시 주로 사용하는 프레임워크(express를 더 선호합니다)
