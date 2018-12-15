@@ -12,7 +12,7 @@
 - [인하대학교](http://www.inha.ac.kr) 재학 2014/03 ~ 현재
 
 ### 경험
-- [PUBG](https://www.pubg.com/) ISD 프론트엔드팀 2018/07 ~ 
+- [PUBG](https://www.pubg.com/) ISD 프론트엔드팀 2018/07 ~ 현재
 - [Starlink](https://startlink.io) 웹 개발자 2016/02 ~ 2017/08
 
 ### 기술 스택
