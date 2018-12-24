@@ -18,11 +18,22 @@
 ### 기술 스택
 - React, Angular: 웹 프론트엔드를 구현을 위한 프레임워크
 - Git: 소스 버젼관리
-- Ruby on Rails, express: 웹 백엔드 구현시 주로 사용하는 프레임워크(express를 더 선호합니다)
+- Express: 웹 백엔드 구현시 주로 사용하는 프레임워크(express를 더 선호합니다)
 - C/C++: 프로그래밍 대회에 주로 사용
 - Python: 간단한 스크립트 작성
 
-### 주요 프로젝트    
+### 주요 프로젝트
+
+#### PUBG
+- Battlegrounds Survivor Pass:Vikendi DLC 및 Regular Supply Pass
+  - 담당: 웹 프론트엔드, UI 구현 및 구
+  - 기술스택: Angular, redux
+  - 기간: 2018/07 ~ 현재
+  - 설명
+    - 배틀그라운드 비켄디 이벤트 패스 UI 구현 담당
+    - 프레임이 떨어지는 문제를 해결하기 위해서 최적화 기법 사용 및 에니메이션 추가
+
+#### Startlink
 - [sundayCoding](https://www.sundaycoding.xyz)
   - 담당: 웹 프론트엔드
   - 기술스택: react, redux, node.js, aws
@@ -56,14 +67,6 @@
   - 설명
     - 졸업 프로젝트로써 교내 시간표 작성 사이트의 사용성을 개선하고자 시작한 서비스
     - 시간표 추천 알고리즘과 연계해서 학생들의 고민을 일부나마 해결해보고자 시작
-
-- [인하대학교 시간표 v1](https://github.com/cannalee90/inha-schedule)
-  - 담당: 웹 프론트엔드, 백엔드
-  - 기술 스택: react, rails, aws
-  - 기간: 2016/01 ~ 2017/02
-  - 설명
-    - 교내 시간표 작성 사이트의 모바일 사용성이 불편해서 시작한 서비스
-    - 처음으로 진행한 개인프로젝트로써, 기획, 구현, 배포를 처음부터 끝까지 진행
 
 ### 외부 활동
 - 2015 인하대학교 프로그래밍 경진대회 창설 및 운영
