@@ -25,48 +25,27 @@
 ### 주요 프로젝트
 
 #### PUBG
-- Battlegrounds Survivor Pass:Vikendi DLC 및 Regular Supply Pass
-  - 담당: 웹 프론트엔드, UI 구현 및 구
-  - 기술스택: Angular, redux
-  - 기간: 2018/07 ~ 현재
-  - 설명
-    - 배틀그라운드 비켄디 이벤트 패스 UI 구현 담당
-    - 프레임이 떨어지는 문제를 해결하기 위해서 최적화 기법 사용 및 에니메이션 추가
 
-#### Startlink
-- [sundayCoding](https://www.sundaycoding.xyz)
-  - 담당: 웹 프론트엔드
-  - 기술스택: react, redux, node.js, aws
-  - 기간: 2017/02 ~ 2017/08
-  - 인원: 2명
-  - 설명
-    - codeforce와 같은 프로그래밍 대회를 백준 유저를 대상으로 제공하기 위한 사이트
-    - React를 사용해서 웹 프론트앤드 개발
-    
-- [code.plus](https://code.plus)
-  - 담당: 웹 프론트엔드, 백엔드 내부 어드민 페이지 개발 및 유지 보수
-  - 기술스택: node.js, jquery, react, redux, redis, aws
-  - 기간: 2016/07 ~ 2017/08 
-  - 인원: 2명
-  - 설명
-    - 백준 알고리즘 강의를 인터넷 강의 형식으로 제공하기 위한 플랫폼
-   
-### 개인프로젝트 
+Angular을 사용한 배틀그라운드 아웃게임 컨텐츠 개발
 
-- [Flashcard](https://github.com/cannalee90/flash-card)
-  - 담당: 웹 프론트엔드
-  - 기술 스택: react
-  - 기간: 2018/04 ~ 현재
-  - 설명
-    - 웹에서 암기카드를 markdown으로 작성해서 gist에 업로드하면서 확인할 수 있는 서비스 inspired by [jwasham](https://github.com/jwasham/computer-science-flash-cards)
+특징
+- Rxjs를 적극적으로 사용해서 비동기 이벤트를 관리합니다.
+- 게임플레이를 제외한 게임의 핵심 기능들(스토어, 패스, 친구, 매칭, 옷장)을 유저에게 제공합니다.
+- 다양한 플랫폼(Xbox, Ps, Stadia, Steam)에서 동작하는 어플리케이션을 구현합니다.
+- 마이크로 서비스로 이루어진 서버, 언리얼 클라이언트, 플랫폼의 데이터를 다뤄야 하는 복잡한 구조가 특징입니다.  
 
-- [인하대학교 시간표 v2](https://github.com/cannalee90/inhatime)
-  - 담당: 웹 프론트엔드, 백엔드 및 시스템 설계
-  - 기술 스택: react, node.js, aws
-  - 기간: 2017/03 ~ 2017/06
-  - 설명
-    - 졸업 프로젝트로써 교내 시간표 작성 사이트의 사용성을 개선하고자 시작한 서비스
-    - 시간표 추천 알고리즘과 연계해서 학생들의 고민을 일부나마 해결해보고자 시작
+입사 후 담당한 기능들은 아래와 같습니다.
+
+- 서바이버 패스
+- Survivor Supply System
+- Survivor Pass 2:Vikendi
+- Survivor Pass 3:Wild Card,
+- Survivor Pass 9:미정
+- PC 친구 목록 리팩토링 및 콘솔 친구 목록 구현
+- 커스터마이즈(옷장) 리팩토링
+- angular-redux -> NgRx 마이그레이션
+- Sentry를 팀에서 잘 사용할 수 있도록 지원 및 관리
+- 상정 개발 유지보수
 
 ### 외부 활동
 - 2015 인하대학교 프로그래밍 경진대회 창설 및 운영
